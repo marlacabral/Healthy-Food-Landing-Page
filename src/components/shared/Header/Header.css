@@ -1,0 +1,39 @@
+.header{
+    margin-bottom: 20%;
+    padding: 1rem;
+    cursor:pointer;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+
+}
+
+.header-recipes{
+    color: white;
+    text-decoration: none;
+
+}
+.header-blog{
+    color: white;
+    text-decoration: none;
+
+}
+.header-join{
+    color: white;
+    text-decoration: none;
+
+}
+.header-register{
+    color: rgb(186, 220, 88);
+    text-decoration: none;
+    border-radius: 10%;
+    border:1px solid white;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+
+}

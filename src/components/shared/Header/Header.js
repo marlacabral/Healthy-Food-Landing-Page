@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../Header/Header.css';
 
 const Header = () => {
   return (
@@ -10,7 +10,6 @@ const Header = () => {
         <Link to="/blog" className="header-blog">BLOG</Link>
         <Link to="/join" className="header-join">JOIN</Link>
         <Link to="/register" className="header-register">REGISTER</Link>
-      
     </header>
   )
 }

@@ -3,20 +3,22 @@ import Header from './components/shared/Header/Header';
 import Footer from './components/shared/Footer/Footer';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
-
-// import DrinkReturn from './pages/Registration';
-// import DrinkEdit from './pages/DrinkEdit/DrinkEdit';
+import ListFood from '../src/components/structure/ListFood/ListFood';
+import Search from '../src/components/structure/SearchFood/SearchFood';
+import ServiceFood from '../src/components/structure/ServiceFood/ServiceFood';
+import BlogFood from '../src/components/structure/BlogFood/BlogFood';
+import JoinFood from '../src/components/structure/JoinFood/JoinFood';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-        <Switch>
-          <Route path="/." exact={true} component={Home}/>
-          {/* <Route path="/add" component={Registration}/>
-          <Route path="/view/:id" component={DrinkReturn}/>
-          <Route path="/edit/:id" component={DrinkEdit}/> */}
-        </Switch>
+      <Home />
+      <Search />
+      <ListFood />     
+      <ServiceFood /> 
+      <BlogFood />
+      <JoinFood />
       <Footer/>
     </div>
   );
