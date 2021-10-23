@@ -1,0 +1,24 @@
+
+.first{
+    display: flex;
+    align-items: center;
+    top:0;
+    right: 0;
+    width: 100%;
+
+}
+.first-text{
+    margin-left: 10%;
+}
+.first-text h2{
+    color: rgb(186, 220, 88);
+    font-size: 1.8rem;
+}
+.first-text h1{
+    color: rgb(48, 41, 88);
+    font-size: 2.5rem;
+    width:80%;
+    left: 0;
+    
+}
+

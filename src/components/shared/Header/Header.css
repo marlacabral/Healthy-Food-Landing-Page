@@ -1,21 +1,18 @@
 .header{
-    margin-bottom: 20%;
-    padding: 1rem;
+    padding: 1.2rem;
     cursor:pointer;
     display: flex;  
     justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
-    right: 0;
-    width: 40%;
-
+    right: 9%;
+    width: 33%;
 }
 
 .header-recipes{
     color: white;
     text-decoration: none;
-
 }
 .header-blog{
     color: white;
@@ -30,10 +27,9 @@
 .header-register{
     color: rgb(186, 220, 88);
     text-decoration: none;
-    border-radius: 10%;
+    border-radius: 6%;
     border:1px solid white;
     background-color: white;
-    padding: 1rem 1.5rem;
-    font-weight: 700;
+    padding: .6rem 1.5rem;
 
 }

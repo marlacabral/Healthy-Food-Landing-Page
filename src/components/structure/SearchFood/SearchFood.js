@@ -6,9 +6,10 @@ const Search = () => {
     return(
         <section className="first">
             <div className="first-text">
-                <h2>Ready for Trying a new recipe?</h2>
+                <h2>Healthy Food</h2> 
+                <h1>Ready for Trying a new recipe?</h1>
                 <input type="text" placeholder="Search healthy recipes"/>
-                < FiSearch />
+                <button>< FiSearch /></button>
             </div>
 
             <div className="img-search">
